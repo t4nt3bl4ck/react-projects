@@ -50,6 +50,7 @@ interface WeatherData {
   };
 }
 
+
 export default function WeatherApp() {
   const [data, setData] = useState<WeatherData | null>(null);
   const [location, setLocation] = useState<string>("");
