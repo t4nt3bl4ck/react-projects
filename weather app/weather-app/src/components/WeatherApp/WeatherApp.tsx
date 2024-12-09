@@ -55,7 +55,7 @@ export default function WeatherApp() {
   const [location, setLocation] = useState<string>("");
   const [notFound, setNotFound] = useState<boolean>(false);
   const [loading, setLoading] = useState<boolean>(false);
-  const api_key: string = "ccdfa9766326622fa2aacc3808aef12f";
+  const api_key: string = "your_api_key";
 
   useEffect(() => {
     const fetchDefaultWeather = async () => {
